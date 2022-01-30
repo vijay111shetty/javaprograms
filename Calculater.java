@@ -1,9 +1,5 @@
-import java.sql.SQLFeatureNotSupportedException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner6;
 
 public class Calculater {
 
@@ -21,7 +17,7 @@ public class Calculater {
     }
     public float div(float a, float b){
         float c = a/b;
-        return c:
+        return c;
     }
      public static void main(String[] args) {
          Calculater cal=new Calculater();
